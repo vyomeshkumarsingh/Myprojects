@@ -104,8 +104,8 @@ def gameloop():
                     if event.key == pygame.K_DOWN:
                         velocity_y = var_velocity
                         velocity_x = 0
-                    if event.key ==pygame.K_i:
-                        score+=10
+                    
+                    
             snake_x = snake_x + velocity_x
             snake_y = snake_y + velocity_y
             if abs(snake_x - food_x) < 6 and abs(snake_y - food_y)<6:
