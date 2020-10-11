@@ -89,7 +89,7 @@ if __name__ == "__main__":
             javapath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.3.lnk"
             os.startfile(javapath)
           
-        elif "open Stackoverflow" in query:
+        elif "open stackoverflow" in query:
             webbrowser.open("stackoverflow.com")
 
         # elif 'email to harry' in query:
